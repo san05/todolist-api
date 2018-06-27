@@ -7,7 +7,7 @@ pipeline {
 
     environment {
         // GLobal Vars
-        PIPELINES_NAMESPACE = "<YOUR_NAME>-ci-cd"
+        PIPELINES_NAMESPACE = "san-ci-cd"
         APP_NAME = "todolist-api"
 
         JENKINS_TAG = "${JOB_NAME}.${BUILD_NUMBER}".replace("/", "-")
